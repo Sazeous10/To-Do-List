@@ -1,0 +1,61 @@
+.ToDoListComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    width: 70%;
+    justify-self: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.296);
+
+}
+input[type="text"]{
+    width: 75%;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+}
+Button{
+    font-size: 1.5rem;
+    padding: 6px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.296);
+}
+.MoveButtonUp, .MoveButtonDown{
+    padding: 3px;
+    background-color: rgb(94, 96, 64);
+}
+.MoveButtonUp:hover, .MoveButtonDown:hover{
+    cursor: pointer;
+    background-color: rgb(51, 52, 19);
+}
+.AddButton{
+    background-color: hsl(120, 73%, 45%);
+    cursor: pointer;
+}
+.Ad-Button:hover{
+    background-color: hsl(120, 73%, 15%);
+}
+.DeleteButton{
+    background-color: hsl(0, 73%, 45%);
+    cursor: pointer;
+}
+.DeleteButton:hover{
+    background-color: hsl(0, 73%, 15%);
+}
+/* ol {
+    list-style-type: none;
+    
+  } */
+h1{
+    text-align: center;
+}
+.InputField{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
